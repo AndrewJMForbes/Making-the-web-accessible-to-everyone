@@ -2,8 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: #fff;
-    /* added color #fff to universal to apply to all text */
     }
 
 
@@ -15,8 +13,8 @@ header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
+    color: #ffffff;
     overflow: auto;
-    /*removed color and added it to universal properties*/
 }
 
 /*removed and replaced .header h1 with h1 to apply to all h1*/
@@ -58,7 +56,7 @@ header nav ul li {
 
 a { 
     text-decoration: none;
-/*removed color and added it to universal properties*/
+    color: #ffffff;
 }
 
 p {
@@ -111,6 +109,7 @@ p {
 #benefit-brand {
     margin-bottom: 32px;
     overflow: auto;
+    color: #ffffff;
     /* changed to an id selector */
 }
 /*condensed benefit-lead, benefit-cost, and benefit-brand all share same properties*/
@@ -133,6 +132,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
+    color: #ffffff;
     overflow: auto;
     /* changed to an id selector */
 }
@@ -174,11 +174,12 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+   
 }
 
 /* removed and replaced .footer h2 with h2 to apply to all h2  */
-/* .footer h2 {
+.footer h2 {
     font-size: 20px;
-} */
+}
 
 
