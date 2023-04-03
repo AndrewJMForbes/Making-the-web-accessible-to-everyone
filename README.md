@@ -2,7 +2,7 @@
 
 ## To help people navigate the internet and make websites accesible to all.
 
-This webpage demonstates how to make your website accessible, findable, and easily navigable through means such as Search Engine Optimization (SEO), Online Reputation Management, and Social Media Marketing. This started off as someone elses code and I was tasked with condensing, re-organizing, and adding comments of changes I've made to the CSS and HTML code. The goal of this project is to help every person who visits this website easy and unobstructed access to the links and information. This project focuses on clean organized semantics to help any browser display the information contained on this website. I learned that a nice consolidated CSS can make a project look clean, professional, and make it more organized through shared properties between multiple selectors. This helped me better understand what proper HTML code semantics look like and how to review, edit, and add comments so that anyone who might revisit this pages code will know what I changed and maybe even make their own changes to improve this website even more.
+This webpage demonstates how to make your website accessible, findable, and easily navigable through means such as Search Engine Optimization (SEO), Online Reputation Management, and Social Media Marketing. This started off as someone elses code and I was tasked with condensing, re-organizing, and adding comments of changes I've made to the CSS and HTML code. The goal of this project is to give every person who visits this website easy and unobstructed access to the links and information. This project focuses on clean organized semantics to help any browser display the information contained on this website. I learned that a nice consolidated CSS can make a project look clean, professional, and make it more organized through shared properties between multiple selectors. This helped me better understand what proper HTML code semantics look like and how to review, edit, and add comments so that anyone who might revisit this pages code will know what I changed and maybe even make their own changes to improve this website even more.
 
 ## Installation
 
@@ -48,8 +48,15 @@ I used a GitHub.com as my main repository database in order to save and re-edit 
 
 With these steps you should now be able to clone a repository, edit the contents, and save your changes to others can see and even edit your changes.
 
+## Screenshots of the webpage
 
+![Screenshot webpage mid](https://user-images.githubusercontent.com/124540000/229533412-c7a5602e-ded2-4002-96dc-4901d1469764.png)
+![Screenshot webpage top](https://user-images.githubusercontent.com/124540000/229533415-826deb5e-38e9-418c-afaa-b660d09fe98c.png)
+![Screenshot webpage bottom](https://user-images.githubusercontent.com/124540000/229533420-f885d821-0b78-469a-ab71-c3d8eee89e29.png)
 
+## Link to the deployed webpage
+
+https://forbes85.github.io/Making-the-web-accesible-to-everyone/
 
 
 
