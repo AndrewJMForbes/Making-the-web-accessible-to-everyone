@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Making the web accessible to everyone</title>
-    <!-- added title --> 
+    <!-- added title to make my site unique--> 
     <!-- added meta http-equiv="X-UA-Compatible -->
     <!-- content="IE=edge -->
     <!-- content="width=device-width, initial-scale=1.0 -->
@@ -16,7 +16,7 @@
     <body>
         
         <header> 
-            <!-- removed div class="header" replaced it with a header tag -->
+            <!-- removed div class="header" replaced it with a header tag to help with proper semantics-->
             
 
             <h1>Horiseon</h1><!-- removed and replaced <h1>Hori<span class="seo">seo</span>n</h1> with <h1>Horiseon</h1> -->
@@ -41,16 +41,20 @@
     
         </header>
         
-        <section class="hero" alt="1 person is sitting with a laptop in front of them while 2 other sit and 1 other stands in an office gathering around a paper covered table looking at sheets containing information"></section>
+                <div class="hero" alt="1 person is sitting with a laptop in front of them while 2 other sit and 1 other stands in an office gathering around a paper covered table looking at sheets containing information"></div>
         
             <main class="content">
-
+                    
+                <!-- Added a main content tag to declare which content was main area of information -->
+                
                 <section>
-
+                    
+                    <!-- Separated each container into it's own section to show they have different information -->
+                    
                     <div id="search-engine-optimization">
                         
                         <img src="./assets/images/search-engine-optimization.jpg" alt="desktop with colorful pens, coffee, laptop and a notebook with an optimization process wheel">
-                        <!-- added alt text to the img -->
+                        <!-- added alt text to the img to help with screen reading applications-->
                         <h2>Search Engine Optimization</h2>
                         
                             <p>
@@ -62,11 +66,13 @@
                 </section>
 
                 <section>
-                
+                     
+                    <!-- Separated each container into it's own section to show they have different information -->
+                    
                     <div id="online-reputation-management" class="online-reputation-management">
                         
                         <img src="./assets/images/online-reputation-management.jpg" alt="person working on their laptop while also looking at their cellphone">
-                        <!-- added alt text to the img -->
+                        <!-- added alt text to the img to help with screen reading applications-->
                             <h2>Online Reputation Management</h2>
                                 
                                 <p>
@@ -78,11 +84,13 @@
                 </section>
 
                 <section>
-
+                     
+                    <!-- Separated each container into it's own section to show they have different information -->
+                   
                     <div id="social-media-marketing" class="social-media-marketing">
                             
                             <img src="./assets/images/social-media-marketing.jpg" alt="group of people gathered around a tabletop covered with colorful round images all refering to an aspect of social media with their laptops and tablets">
-                            <!-- added alt text to the img -->
+                            <!-- added alt text to the img to help with screen reading applications-->
                                 <h2>Social Media Marketing</h2>
                                     
                                     <p>
@@ -98,13 +106,15 @@
 
         
             <section class="benefits">
+
+                <!-- Added a section tag to this container to show that it is separate from the main content and other containers -->
                 
                 <div id="benefit-lead">
                     
                     <h3>Lead Generation</h3>
                         
-                        <img src="./assets/images/lead-generation.png" alt="a gear topped image leading down to an traingle enclosed arrow leading down more to a circle with a dollar sign"/>
-                            <!-- added alt text to the img -->
+                        <img src="./assets/images/lead-generation.png" alt="a gear topped image leading down to an arrow inside of a triangle that funnels down more to a circle with a dollar sign"/>
+                            <!-- added alt text to the img to help with screen reading applications-->
                             <p>
                                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                             </p>
@@ -116,7 +126,7 @@
                     <h3>Brand Awareness</h3>
                         
                         <img src="./assets/images/brand-awareness.png" alt="a business person with a tie who has a lightbulb replacing their head emitting waves outwards"/>
-                        <!-- added alt text to the img --> 
+                        <!-- added alt text to the img to help with screen reading applications--> 
                         <p>
                                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                             </p>
@@ -128,7 +138,7 @@
                     <h3>Cost Management</h3>
                         
                         <img src="./assets/images/cost-management.png" alt="a cog surrounded by 3 circles with dollar signs inside of them"/>
-                            <!-- added alt text to the img -->
+                            <!-- added alt text to the img to help with screen reading applications-->
                             <p>
                                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
                             </p>
